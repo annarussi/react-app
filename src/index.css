@@ -28,3 +28,23 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* ---------- BANNER ------------------ */
+
+.nav {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.nav p {
+  font-size: 20px;
+  color: #06255B;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-left:25px;
+}
+
+.leonidas-logo {
+  width: 10vh;
+  border-radius: 8px;
+}
