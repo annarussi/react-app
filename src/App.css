@@ -1,0 +1,58 @@
+
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+#dark {
+  background-color: #030914f1;
+}
+
+#dark .chocolate-card {
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.26);
+  color: #c2d8fd;
+  border: #ffffffb6 1px solid;
+}
+
+#dark .nav {
+  background-color: #030914f1;
+}
+
+#dark .nav p {
+  color: #c2d8fd;
+}
+
+#dark .leonidas-logo {
+  border: 1px solid #c2d8fd1e;
+  box-shadow:#c2d8fd33 0px 0px 10px 0px;
+}
+
+#dark .search {
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.466);
+  color: #c2d8fd;
+}
+
+#dark .chocolate-img {
+  filter: brightness(0.8)
+}
+
+#dark .chocolate-card:hover .chocolate-img{
+  filter: brightness(1.3)
+}
+
+#dark .no-match-text {
+  color: #c2d8fd;
+  text-shadow: #c2d8fd9f 0px 0px 10px;
+}
+
+#dark .nav {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.13);
+}
+
+#dark label {
+  color: #c2d8fd;
+}
