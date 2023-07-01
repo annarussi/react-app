@@ -1,10 +1,9 @@
 import './App.css'
 import Header from './components/Header'
 import ChocolatesList from './components/ChocolatesList'
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import ReactSwitch from 'react-switch';
 
-export const ThemeContext = createContext(null);
 
 export default function App() {
   const [theme, setTheme] = useState('dark');
@@ -16,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+
       <div className="app" id={theme}>
         <div className="nav d-flex justify-content-between align-items-center">
           <Header />
@@ -30,6 +29,6 @@ export default function App() {
           <ChocolatesList />
         </div>
       </div>
-    </ThemeContext.Provider>
+
   )
 }
