@@ -14,7 +14,7 @@ export default function ChocolatesList() {
     );
 
     const searchInput = <input
-                          className="form-control w-50 m-auto mt-5 mb-5"
+                          className="form-control w-50 m-auto mt-5 mb-5 search"
                           type="search"
                           placeholder='Search for a chocolate'
                           value={search}
@@ -25,7 +25,7 @@ export default function ChocolatesList() {
     return (
       <>
       {searchInput}
-      <h3 className="text-center"><em>Sorry, we couldn't find any chocolates matching your search.</em></h3>
+      <h3 className="text-center no-match-text"><em>Sorry, we couldn't find any chocolates matching your search.</em></h3>
       </>
 
     )
@@ -39,7 +39,7 @@ export default function ChocolatesList() {
       <div className="chocolates-cards m-auto">
 
           {chocolates.map((chocolate) => (
-            <div className="card shadow-sm chocolate-card ">
+            <div className="card chocolate-card ">
               <img
                 src={`https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/${chocolate.img}`}
                 alt={`${chocolate.name}`}
