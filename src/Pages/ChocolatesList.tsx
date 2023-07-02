@@ -1,5 +1,5 @@
 import { chocolatesList } from '../data/chocolates';
-import SearchBar from './SearchBar'
+import SearchBar from '../components/SearchBar'
 import React from 'react'
 
 

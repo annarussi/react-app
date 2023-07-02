@@ -29,7 +29,15 @@
     grid-template-columns: 1fr 1fr;
   }
   #nav-text {
-    display: none;
+    font-size: 16px;
+    padding: 15px 15px;
+    margin: 0;
+  }
+
+  .home-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -68,8 +76,8 @@
 
 .footer {
   background: #c2d8fd00;
+  text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 70px;
   padding: 0px 50px;
@@ -91,12 +99,23 @@
     }
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   min-height:100%;
   position: relative;
   padding-bottom: 70px;
+}
+
+/* ---------- HOME ------------------ */
+
+.home-image img {
+  width: 30vh;
+  height: 30vh;
+  margin:3px;
+  border-radius: 8px;
+  border: 1px solid #06255B;
+
+}
+
+.home-image {
+  padding: 20px;
 }

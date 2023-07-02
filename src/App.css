@@ -60,3 +60,11 @@
 #dark .footer {
   background: #030914f1;
 }
+
+#dark .home {
+  color: #c2d8fd;
+}
+
+#dark .home-image img {
+  filter: brightness(0.8);
+}
