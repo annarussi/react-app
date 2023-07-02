@@ -1,5 +1,5 @@
 import { boxesList } from '../data/boxes';
-import SearchBar from './SearchBar'
+import SearchBar from '../components/SearchBar'
 import React from 'react'
 
 
