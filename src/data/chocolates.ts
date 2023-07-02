@@ -7,14 +7,14 @@ export interface Chocolates {
   img: string;
 }
 
-export const chocolatesIndex: Chocolates[] = [
+export const chocolatesList: Chocolates[] = [
   {
     name: "Alexandre Le Grand",
     type: "dark",
     filling: "caramel",
     description: "Dark chocolate, caramel cream",
     weight: 15,
-    img: "2021-03/ts_alexandre_le_grand_noir.png?itok=e0Iz_kOD"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_alexandre_le_grand_noir.png?itok=e0Iz_kOD"
 
   },
 
@@ -24,7 +24,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "White chocolate, tender praliné",
     weight: 15,
-    img: "2021-03/ts_buche_blanc.png?itok=rjpPs64m"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_buche_blanc.png?itok=rjpPs64m"
   },
 
   {
@@ -33,7 +33,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "ganache",
     description: "Milk chocolate, milk chocolate ganache with hazelnut cream",
     weight: 15,
-    img: "2021-03/ts_avelanne.png?itok=vRD31VxJ"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_avelanne.png?itok=vRD31VxJ"
   },
 
   {
@@ -42,7 +42,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "marzipan",
     description: "Dark chocolate, pistachio-flavoured marzipan",
     weight: 20,
-    img: "2021-03/profil_buche_pistache.png?itok=icBShOTa"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/profil_buche_pistache.png?itok=icBShOTa"
   },
 
   {
@@ -51,7 +51,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "liquor",
     description: "Dark chocolate, advocaat-flavoured crème confiseur",
     weight: 15,
-    img: "2021-03/profil_advocaat.png?itok=hoKMVIgQ"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/profil_advocaat.png?itok=hoKMVIgQ"
   },
 
   {
@@ -60,7 +60,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "caramel",
     description: "Milk Chocolate, soft caramel cream with pieches of lightle candied orange peel",
     weight: 15,
-    img: "2021-03/ts_alexandre_le_grand_orange.png?itok=MUkyCuw-"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_alexandre_le_grand_orange.png?itok=MUkyCuw-"
   },
 
   {
@@ -69,7 +69,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "caramel",
     description: "Milk chocolate, bergamot-flavoured caramel cream",
     weight: 15,
-    img: "2021-03/ts_bergamote.png?itok=Du9djH9f"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_bergamote.png?itok=Du9djH9f"
   },
 
   {
@@ -78,7 +78,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "caramel",
     description: "Dark chocolate, caramel cream with sea salt from Guérande",
     weight: 15,
-    img: "2021-03/ts_bretagne.png?itok=40YHW2fj"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_bretagne.png?itok=40YHW2fj"
   },
 
   {
@@ -87,7 +87,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Dark chocolate, tender praliné",
     weight: 15,
-    img: "2021-03/ts_buche_noir.png?itok=umdiOw1Q"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_buche_noir.png?itok=umdiOw1Q"
   },
 
   {
@@ -96,7 +96,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Milk chocolate, tender praliné",
     weight: 15,
-    img: "2021-03/ts_buche_lait.png?itok=W8iyTSqk"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_buche_lait.png?itok=W8iyTSqk"
   },
 
   {
@@ -105,7 +105,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Dark chocolate, praliné with puffed rice",
     weight: 15,
-    img: "2021-03/ts_carre_croquant_noir_0.png?itok=OW53_SQW"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_carre_croquant_noir_0.png?itok=OW53_SQW"
   },
 
   {
@@ -114,7 +114,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Milk chocolate, praliné with puffed rice",
     weight: 15,
-    img: "2021-03/ts_carre_croquant_lait.png?itok=2fbdA4ZO"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_carre_croquant_lait.png?itok=2fbdA4ZO"
   },
 
   {
@@ -123,7 +123,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Dark chocolate, praliné with puffed rice",
     weight: 15,
-    img: "2021-03/ts_casaleo_noir.png?itok=US6CkYMB"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_casaleo_noir.png?itok=US6CkYMB"
   },
 
   {
@@ -132,7 +132,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Milk chocolate, praliné with puffed rice",
     weight: 15,
-    img: "2021-03/ts_casaleo_lait.png?itok=RDc57WYI"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_casaleo_lait.png?itok=RDc57WYI"
   },
 
   {
@@ -141,7 +141,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "White chocolate, praliné with puffed rice",
     weight: 15,
-    img: "2021-03/ts_casaleo_blanc.png?itok=_ZhMkTKw"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_casaleo_blanc.png?itok=_ZhMkTKw"
   },
 
   {
@@ -150,7 +150,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "liquor",
     description: "Dark chocolate, whole morello cherry in liqueur cream",
     weight: 15,
-    img: "2021-03/ts_cerise.png?itok=vKVi19kq"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_cerise.png?itok=vKVi19kq"
   },
 
   {
@@ -159,7 +159,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "liquor",
     description: "Dark chocolate, cherry with stalk and pit in liqueur cream",
     weight: 15,
-    img: "2021-04/profil_cerisette.png?itok=h7ISHHWj"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-04/profil_cerisette.png?itok=h7ISHHWj"
   },
 
   {
@@ -168,7 +168,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Dark chocolate, crunchy biscuit and praliné",
     weight: 15,
-    img: "2022-08/ts_crousty_noir.png?itok=_US0Nar7"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2022-08/ts_crousty_noir.png?itok=_US0Nar7"
   },
 
   {
@@ -177,7 +177,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Milk chocolate, coconut crème confiseur",
     weight: 15,
-    img: "2021-09/ts_crousty.png?itok=OYjU5o-r"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-09/ts_crousty.png?itok=OYjU5o-r"
   },
 
   {
@@ -186,7 +186,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "buttercram",
     description: "Dark chocolate, cherry with stalk and pit in liqueur cream",
     weight: 15,
-    img: "2021-03/ts_delice_0.png?itok=M1Zm0M4Z"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_delice_0.png?itok=M1Zm0M4Z"
   },
 
   {
@@ -195,7 +195,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "buttercram",
     description: "White chocolate, pineapple buttercream",
     weight: 15,
-    img: "2021-03/ts_desiree_0.png?itok=gkBoZNJH"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_desiree_0.png?itok=gkBoZNJH"
   },
 
   {
@@ -204,7 +204,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "ganache",
     description: "Dark chocolate, dark chocolatew ganache with orange blossom flavour",
     weight: 15,
-    img: "2021-03/ts_floranger.png?itok=MxUbduY8"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_floranger.png?itok=MxUbduY8"
   },
 
   {
@@ -213,7 +213,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "creme confiseur",
     description: "Milk chocolate, crème confiseur with coffee",
     weight: 15,
-    img: "2021-03/ts_forever_cafe.png?itok=2uKfvJD3"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_forever_cafe.png?itok=2uKfvJD3"
   },
 
   {
@@ -222,7 +222,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Milk chocolate, praliné",
     weight: 15,
-    img: "2021-03/ts_forever_praline.png?itok=S67vkQxU"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_forever_praline.png?itok=S67vkQxU"
   },
 
   {
@@ -231,7 +231,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "ganache",
     description: "Dark chocolate, cherry with stalk and pit in liqueur cream",
     weight: 15,
-    img: "2021-03/ts_ganache.png?itok=QANpDing"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_ganache.png?itok=QANpDing"
   },
 
   {
@@ -240,7 +240,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "caramel",
     description: "Milk chocolate, caramel with velvety flavoured maple syrup from Gaspésie",
     weight: 15,
-    img: "2021-03/ts_gaspe.png?itok=vKuM1IuC"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_gaspe.png?itok=vKuM1IuC"
   },
 
   {
@@ -249,7 +249,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Praliné with almond pieces",
     weight: 10,
-    img: "2021-03/ts_giamanda.png?itok=ZY_Kj3sN"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_giamanda.png?itok=ZY_Kj3sN"
   },
 
   {
@@ -258,7 +258,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Praliné",
     weight: 10,
-    img: "2021-03/ts_gianduja.png?itok=NrZqlxO2"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_gianduja.png?itok=NrZqlxO2"
   },
 
   {
@@ -267,7 +267,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "praliné",
     description: "Praliné with pieces of crunchy biscuit",
     weight: 10,
-    img: "2021-03/ts_giantina.png?itok=opAao5cT"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_giantina.png?itok=opAao5cT"
   },
 
   {
@@ -276,7 +276,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "crème confiseur",
     description: "Blond chocolate with dulce de leche coffee cream",
     weight: 10,
-    img: "2021-04/ts_coeur_dulce_de_leche.png?itok=ZUdbfIXp"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-04/ts_coeur_dulce_de_leche.png?itok=ZUdbfIXp"
   },
 
   {
@@ -285,7 +285,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "ganache",
     description: "Dark chocolate, intense dark chocolate ganache",
     weight: 15,
-    img: "2021-11/ts_coeur_noir_de_noir.png?itok=eVj8kdyA"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-11/ts_coeur_noir_de_noir.png?itok=eVj8kdyA"
   },
 
   {
@@ -294,7 +294,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "ganache",
     description: "White chocolate and raspberries, raspberry ganache",
     weight: 10,
-    img: "2023-05/3922-coeur-framboise.png?itok=hQaodQvn"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2023-05/3922-coeur-framboise.png?itok=hQaodQvn"
   },
 
   {
@@ -303,7 +303,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "crème confiseur",
     description: "Milk chocolate, vanilla-flavoured crème confiseur",
     weight: 10,
-    img: "2021-03/ts_coeur_vanille.png?itok=735txblA"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_coeur_vanille.png?itok=735txblA"
   },
 
   {
@@ -312,7 +312,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "crème confiseur",
     description: "Dark chocolate, lemon-flavoured crème confiseur",
     weight: 15,
-    img: "2021-04/ts_i_love_you.png?itok=Md5anV2Q"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-04/ts_i_love_you.png?itok=Md5anV2Q"
   },
 
   {
@@ -321,7 +321,7 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "buttercram",
     description: "White chocolate, buttercream with strawberries and rhubarb flavour.",
     weight: 15,
-    img: "2021-03/ts_irresistible.png?itok=0kXElgqD"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2021-03/ts_irresistible.png?itok=0kXElgqD"
   },
 
   {
@@ -330,6 +330,6 @@ export const chocolatesIndex: Chocolates[] = [
     filling: "liquor",
     description: "Dark chocolate, vanilla-flavoured crème confiseur",
     weight: 15,
-    img: "2022-06/ts_feuille_vanille_noir.png?itok=VVpTDnjL"
+    img: "https://www.leonidas.com/sites/default/files/styles/product_ts_list/public/2022-06/ts_feuille_vanille_noir.png?itok=VVpTDnjL"
   },
 ]
