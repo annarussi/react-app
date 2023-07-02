@@ -3,7 +3,7 @@
 .app {
   width: 100%;
   min-height: 100vh;
-  
+
 }
 
 #dark {
@@ -55,4 +55,8 @@
 
 #dark label {
   color: #c2d8fd;
+}
+
+#dark .footer {
+  background: #030914f1;
 }

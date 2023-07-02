@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 import ChocolatesList from './components/ChocolatesList'
 import { useState } from 'react';
@@ -29,6 +30,7 @@ export default function App() {
         <div className="container m-auto">
           <ChocolatesList />
         </div>
+        <Footer link="https://github.com/annarussi/" text='See more projects on my GitHub ♥'/>
       </div>
 
   )
