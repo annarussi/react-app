@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
-import Contact from './Pages/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import BoxList from './Pages/BoxList'
@@ -33,7 +32,6 @@ export default function App() {
           <div className="container m-auto">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
               <Route path="/chocolates" element={<ChocolatesList />} />
               <Route path="/boxes" element={<BoxList />} />
             </Routes>
