@@ -25,7 +25,7 @@ export default function ChocolatesList() {
       <div className="chocolates-cards m-auto">
 
           {chocolates.map((chocolate) => (
-            <div className="card chocolate-card ">
+            <div className="card item-card ">
               <img
                 src={`${chocolate.img}`}
                 alt={`${chocolate.name}`}

@@ -10,7 +10,7 @@
   background-color: #030914f1;
 }
 
-#dark .chocolate-card {
+#dark .item-card {
   background-color: #000000;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.26);
   color: #c2d8fd;
@@ -40,7 +40,7 @@
   filter: brightness(0.8)
 }
 
-#dark .chocolate-card:hover .chocolate-img{
+#dark .item-card:hover .chocolate-img{
   filter: brightness(1.3)
 }
 
