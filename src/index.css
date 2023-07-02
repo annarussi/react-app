@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap:16px;
+  grid-column-end: auto;
 }
 
 @media(max-width: 992px){
@@ -61,4 +62,41 @@
 .leonidas-logo {
   width: 10vh;
   border-radius: 8px;
+}
+
+/* ---------- FOOTER ------------------ */
+
+.footer {
+  background: #c2d8fd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding: 0px 50px;
+  position: absolute;
+  left: 0 ; right: 0; bottom: 0;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #a6a5a5;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+
+    &:hover {
+      color: #b1b2ec;
+    }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height:100%;
+  position: relative;
+  padding-bottom: 70px;
 }
