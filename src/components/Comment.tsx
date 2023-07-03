@@ -18,9 +18,16 @@ export default function Comment() {
 
   return (
     <>
-    {comments.map(comment => {
-      return <h1>{comment.body}</h1>
+    <ul>
+    {comments.slice(0, 5).map(comment => {
+      return (
+        <li className="comments">
+          "{comment.body}"
+          <em>sent by: {comment.email}</em>
+        </li>
+      )
     })}
+    </ul>
     </>
   )
 }
