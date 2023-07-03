@@ -119,3 +119,19 @@ body {
 .home-image {
   padding: 20px;
 }
+
+/* ---------- HOME ------------------ */
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px dashed #a9b6cc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.comments em {
+  opacity: .7;
