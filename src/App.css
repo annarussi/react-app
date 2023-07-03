@@ -34,6 +34,8 @@
   background-color: #000000;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.466);
   color: #c2d8fd;
+  margin: 30px 20px;
+  width: 70%
 }
 
 #dark .chocolate-img {
@@ -67,4 +69,16 @@
 
 #dark .home-image img {
   filter: brightness(0.8);
+}
+
+#dark .button {
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.466);
+  color: #c2d8fd;
+}
+
+
+#dark .text-infos {
+    text-align: center;
+    color:#e5efffc4;
 }

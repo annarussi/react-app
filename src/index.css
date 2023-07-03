@@ -44,6 +44,12 @@
 .item-card {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.164);
   color: #06255B;
+  align-items: center;
+}
+
+.text-infos {
+  text-align: center;
+  color:#06255bce;
 }
 
 /* ---------- BANNER ------------------ */
@@ -120,7 +126,7 @@ body {
   padding: 20px;
 }
 
-/* ---------- HOME ------------------ */
+/* ---------- COMMENTS ------------------ */
 
 .comments {
   display: flex;
@@ -135,4 +141,33 @@ body {
 
 .comments em {
   opacity: .7;
+}
+
+/* ---------- BUTTON ------------------ */
+.button {
+  padding: 8px 10px;
+  color:#e5efff;
+  background-color: #06255B;
+  text-decoration: none;
+  align-self: center;
+  border-radius: 8px;
+  cursor: pointer;
+
+    &:hover {
+      color: #e5efff;
+    }
+}
+
+.search {
+  display: block;
+  margin: 30px 20px;
+  width: 70%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #aaabad;
+  border-radius: 8px;
 }
