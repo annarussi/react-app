@@ -1,6 +1,7 @@
 import cocoa from '../components/images/cocoa.webp'
 import palmoil from '../components/images/palmoil.webp'
 import belgian from '../components/images/belgian.webp'
+import Comment from '../components/Comment'
 
 export default function Home ()  {
   return (
@@ -13,8 +14,8 @@ export default function Home ()  {
         <img src={palmoil} alt="No palm oil" />
         <img src={belgian} alt="100% Belgian" />
       </div>
-
-      </div>
+      <Comment />
+    </div>
     </>
 
   )
