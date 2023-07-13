@@ -1,4 +1,5 @@
 export interface Chocolates {
+  id: number;
   name: string;
   type: string;
   filling: string;
@@ -9,6 +10,7 @@ export interface Chocolates {
 
 export const chocolatesList: Chocolates[] = [
   {
+    id: 1,
     name: "Alexandre Le Grand",
     type: "dark",
     filling: "caramel",
@@ -19,6 +21,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 2,
     name: "Bûche White",
     type: "white",
     filling: "praliné",
@@ -28,6 +31,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 3,
     name: "Avelanne",
     type: "milk",
     filling: "ganache",
@@ -37,6 +41,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 4,
     name: "Bûche Marzipan",
     type: "dark",
     filling: "marzipan",
@@ -46,6 +51,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 5,
     name: "Advocaat Dark",
     type: "dark",
     filling: "liquor",
@@ -55,6 +61,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 6,
     name: "Alexandre Le Grand Orange",
     type: "milk",
     filling: "caramel",
@@ -64,6 +71,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 7,
     name: "Bergamote",
     type: "milk",
     filling: "caramel",
@@ -73,6 +81,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 8,
     name: "Breatgne",
     type: "milk",
     filling: "caramel",
@@ -82,6 +91,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 9,
     name: "Bûche Dark",
     type: "dark",
     filling: "praliné",
@@ -91,6 +101,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 10,
     name: "Bûche Milk",
     type: "milk",
     filling: "praliné",
@@ -100,6 +111,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 11,
     name: "Carré Crisp Dark",
     type: "dark",
     filling: "praliné",
@@ -109,6 +121,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 12,
     name: "Carré Crisp Milk",
     type: "milk",
     filling: "praliné",
@@ -118,6 +131,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 13,
     name: "Casaleo Dark",
     type: "dark",
     filling: "praliné",
@@ -127,6 +141,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 14,
     name: "Casaleo Milk",
     type: "milk",
     filling: "praliné",
@@ -136,6 +151,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 15,
     name: "Casaleo White",
     type: "white",
     filling: "praliné",
@@ -145,6 +161,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 16,
     name: "Cerise Dark",
     type: "dark",
     filling: "liquor",
@@ -154,6 +171,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 17,
     name: "Cerisette",
     type: "dark",
     filling: "liquor",
@@ -163,6 +181,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 18,
     name: "Crousty Dark",
     type: "dark",
     filling: "praliné",
@@ -172,6 +191,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 19,
     name: "Crousty Milk",
     type: "milk",
     filling: "praliné",
@@ -181,6 +201,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 20,
     name: "Delice",
     type: "milk",
     filling: "buttercram",
@@ -190,6 +211,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 21,
     name: "Désirée",
     type: "white",
     filling: "buttercram",
@@ -199,6 +221,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 22,
     name: "Floranger",
     type: "dark",
     filling: "ganache",
@@ -208,6 +231,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 23,
     name: "Forever Coffee Milk",
     type: "milk",
     filling: "creme confiseur",
@@ -217,6 +241,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 24,
     name: "Forever Praliné Milk",
     type: "milk",
     filling: "praliné",
@@ -226,6 +251,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 25,
     name: "Ganache",
     type: "milk",
     filling: "ganache",
@@ -235,6 +261,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 26,
     name: "Gaspé",
     type: "milk",
     filling: "caramel",
@@ -244,6 +271,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 27,
     name: "Giamanda",
     type: "milk",
     filling: "praliné",
@@ -253,6 +281,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 28,
     name: "Gianduja",
     type: "milk",
     filling: "praliné",
@@ -262,6 +291,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 29,
     name: "Giantina",
     type: "milk",
     filling: "praliné",
@@ -271,6 +301,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 30,
     name: "Heart dulce de leche",
     type: "milk",
     filling: "crème confiseur",
@@ -280,6 +311,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 31,
     name: "Heart noir de noir",
     type: "dark",
     filling: "ganache",
@@ -289,6 +321,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 32,
     name: "Heart raspberry",
     type: "white",
     filling: "ganache",
@@ -298,6 +331,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 33,
     name: "Heart vanilla",
     type: "milk",
     filling: "crème confiseur",
@@ -307,6 +341,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 34,
     name: "I love you",
     type: "dark",
     filling: "crème confiseur",
@@ -316,6 +351,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 35,
     name: "Irrésistible strawberry rhubarb",
     type: "white",
     filling: "buttercram",
@@ -325,6 +361,7 @@ export const chocolatesList: Chocolates[] = [
   },
 
   {
+    id: 36,
     name: "Leaf vanilla",
     type: "milk",
     filling: "liquor",
