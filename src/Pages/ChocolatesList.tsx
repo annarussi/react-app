@@ -1,6 +1,7 @@
 import { chocolatesList } from '../data/chocolates';
 import SearchBar from '../components/SearchBar'
 import Button from '../components/Button'
+import Card from '../components/Card'
 import React from 'react'
 
 
@@ -28,31 +29,18 @@ export default function ChocolatesList() {
       { chocolates.length > 0 &&  <Button onCLick={() => setDescriptionVisible(!descriptionVisible)}>+ infos</Button>}
 
       </div>
+
       { chocolates.length === 0 && <h3 className="text-center no-match-text"><em>Sorry, we couldn't find any chocolates matching your search.</em></h3> }
       <div className="chocolates-cards m-auto">
 
-          {chocolates.map((chocolate) => (
-            <div className="card item-card">
+          {chocolates.map(chocolate => {
+            return(
+              <Card {...chocolate} // spread operator, pass all the properties of chocolate as props
+                descriptionVisible={descriptionVisible}
+              />
+            )
 
-              <img
-                src={`${chocolate.img}`}
-                alt={`${chocolate.name}`}
-                className="chocolate-img">
-              </img>
-
-              <div className="card-body">
-                <h6 className="text-center">{chocolate.name}</h6>
-                { descriptionVisible && (
-                <>
-                  <hr />
-                  <p className="text-infos"><strong>Description:</strong><em> {chocolate.description} </em></p>
-                  <p className="text-infos"><strong>Filling:</strong> <em>{chocolate.filling} </em></p>
-                </>
-                )}
-              </div>
-            </div>
-
-          ))}
+          })}
       </div>
     </>
   )
